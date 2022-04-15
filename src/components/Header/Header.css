@@ -1,0 +1,21 @@
+.heading {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.header {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.actions-list {
+    display: flex;
+    list-style: none;
+}
+
+.actions-list li {
+    margin: 0 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+

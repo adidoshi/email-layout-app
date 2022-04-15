@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 90%;
+    margin: 1rem auto
+}
+
+.side-panel {
+    width: 30%;
+}
+
+.email-body-container {
+    margin: 0 2rem;
+    width: 70%;
+}
+
+@media screen and (max-width: 820px) {
+    .side-panel {
+        width: 100%;
+    }
+    .email-body-container {
+       display: none;
+    }
+  }

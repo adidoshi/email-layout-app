@@ -1,0 +1,45 @@
+.email-card {
+    display: flex;
+    margin-bottom: 1.5rem;
+    border-radius: 0.8rem;
+    color: var(--text-color);
+    
+}
+
+.email-card-avatar {
+    width: max-content;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    background-color: var(--accent-color);
+    margin-top: 0.6rem;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+.email-card-content-top {
+    margin: 0.5rem 0
+}
+
+.email-card-content-bottom {
+    margin: 0.6rem 0;
+    padding-right: 0.4rem;
+}
+
+.fav-action {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
